@@ -8,7 +8,13 @@
  */
 require('dotenv').config()
 const pino = require("pino");
-const logger = pino({ level: process.env.LOG_LEVEL || "info" });
+const logger = pino({ level: process.env.LOG_LEVEL || "info" ,
+                      prettyPrint: {
+                        colorize: true,
+                        translateTime: 'SYS:standard',
+                        ignore: 'hostname,pid',
+                    }
+                });
 const fileSystem = require("fs").promises;
 const csvParser = require("csv-parse/lib/sync");
 

@@ -29,7 +29,7 @@ const quoteCurrencyName = process.env.QUOTE_CURRENCY_NAME || "USD";
 
 //Profile config:
 //Coinbase portfolios (profiles):
-const tradingProfileName = process.env.TRADING_PROFILE_NAME || "BTC trader"; //This is the name of the profile you want the bot to trade in
+const tradingProfileName = process.env.TRADING_PROFILE_NAME || "testProfile"; //This is the name of the profile you want the bot to trade in
 const depositProfileName = process.env.DEPOSIT_PROFILE_NAME || "default"; //This is the name of the profile you want to deposit some profits to
 
 //Deposit config:

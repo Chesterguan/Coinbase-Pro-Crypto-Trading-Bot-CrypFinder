@@ -6,9 +6,11 @@ const pino = require("pino");
 const logger = pino({ level: process.env.LOG_LEVEL || "info" });
 const fileSystem = require("fs");
 
+
 const key = `${process.env.API_KEY}`;
 const secret = `${process.env.API_SECRET}`;
 const passphrase = `${process.env.API_PASSPHRASE}`;
+
 
 //******************** Setup these value configurations before running the program ******************************************
 
@@ -29,7 +31,7 @@ const quoteCurrencyName = process.env.QUOTE_CURRENCY_NAME || "USD";
 
 //Profile config:
 //Coinbase portfolios (profiles):
-const tradingProfileName = process.env.TRADING_PROFILE_NAME || "BTC trader"; //This is the name of the profile you want the bot to trade in
+const tradingProfileName = process.env.TRADING_PROFILE_NAME || "testProfile"; //This is the name of the profile you want the bot to trade in
 const depositProfileName = process.env.DEPOSIT_PROFILE_NAME || "default"; //This is the name of the profile you want to deposit some profits to
 
 //Deposit config:
@@ -43,6 +45,7 @@ const balanceMinimum = Number(process.env.BALANCE_MINIMUM) || .06;
 //***************************************************************************************************************************
 
 //authedClient used to the API calls supported by the coinbase pro api node library
+
 let authedClient = new CoinbasePro.AuthenticatedClient(
     key,
     secret,

@@ -30,7 +30,8 @@
     "csv-parser": "^2.3.3",
     "dotenv": "^8.6.0",
     "node-csv": "^0.1.2",
-    "pino": "^6.13.1"
+    "pino": "^6.13.1",
+    "pino-pretty": "^7.1.0"
   },
   "devDependencies": {
     "eslint": "^7.32.0"

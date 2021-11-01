@@ -1,0 +1,64 @@
+{"level":30,"time":1635651244759,"pid":68439,"hostname":"ziyuandeMacBook-Pro.local","msg":"Configuration:\napiURI: https://api-public.sandbox.pro.coinbase.com\nwebsocketURI: wss://ws-feed-public.sandbox.pro.coinbase.com\nsellPositionDelta: 0.02\nbuyPositionDelta: 0.015\norderPriceDelta: 0.001\nbaseCurrencyName: BTC\nquoteCurrencyName: USD\ntradingProfileName: testProfile\ndepositProfileName: default\ndepositingEnabled: true\ndepositingAmount: 0.5\nbalanceMinimum: 0.06"}
+{"level":30,"time":1635651244966,"pid":68439,"hostname":"ziyuandeMacBook-Pro.local","msg":"Found positionData.json file, starting with position data. Position data: {\"positionExists\":true,\"positionAcquiredPrice\":62863.464515143234,\"positionAcquiredCost\":596.639599674687}"}
+{"level":30,"time":1635651245125,"pid":68439,"hostname":"ziyuandeMacBook-Pro.local","baseCurrency":"BTC","quoteCurrency":"USD","productPair":"BTC-USD","quoteIncrementRoundValue":2,"baseIncrementRoundValue":8}
+{"level":30,"time":1635651245471,"pid":68439,"hostname":"ziyuandeMacBook-Pro.local","baseCurrencyAccountID":"483f6a6e-5f7a-44b0-8f1a-3310340b0dd1","quoteCurrencyAccountID":"71f6def2-0b2d-4dc7-b098-b4774b070083","depositProfileID":"5d205755-9034-48b2-8a09-ca2d92ca6b34","tradeProfileID":"22cb66f7-53b1-46fc-bafb-e1901b410f0d"}
+{"level":20,"time":1635651245714,"pid":68439,"hostname":"ziyuandeMacBook-Pro.local","msg":"Ticker price: 61577.37"}
+{"level":20,"time":1635651245734,"pid":68439,"hostname":"ziyuandeMacBook-Pro.local","msg":"Ticker price: 62821.36"}
+{"level":30,"time":1635651246474,"pid":68439,"hostname":"ziyuandeMacBook-Pro.local","msg":"Starting price of BTC in USD is: 62821.36"}
+{"level":30,"time":1635651247813,"pid":68439,"hostname":"ziyuandeMacBook-Pro.local","msg":"Entering lose position with: 0.00944382 BTC"}
+{"level":20,"time":1635651250835,"pid":68439,"hostname":"ziyuandeMacBook-Pro.local","msg":"Ticker price: 61579.48"}
+{"level":20,"time":1635651255751,"pid":68439,"hostname":"ziyuandeMacBook-Pro.local","msg":"Ticker price: 62816"}
+{"level":20,"time":1635651255887,"pid":68439,"hostname":"ziyuandeMacBook-Pro.local","msg":"Sell Position, current price: 62816 needs to be greater than or equal to 62811.0696 to sell and the receivedValue: 589.6666252522656 needs to be greater than the positionAcquiredCost: 596.639599674687"}
+{"level":20,"time":1635651260749,"pid":68439,"hostname":"ziyuandeMacBook-Pro.local","msg":"Ticker price: 61586.55"}
+{"level":20,"time":1635651265935,"pid":68439,"hostname":"ziyuandeMacBook-Pro.local","msg":"Ticker price: 62815.88"}
+{"level":20,"time":1635651270935,"pid":68439,"hostname":"ziyuandeMacBook-Pro.local","msg":"Ticker price: 61577.37"}
+{"level":20,"time":1635651276027,"pid":68439,"hostname":"ziyuandeMacBook-Pro.local","msg":"Ticker price: 62817.32"}
+{"level":20,"time":1635651276065,"pid":68439,"hostname":"ziyuandeMacBook-Pro.local","msg":"Sell Position, current price: 62817.32 needs to be greater than or equal to 62808.917400000006 to sell and the receivedValue: 589.6790163619404 needs to be greater than the positionAcquiredCost: 596.639599674687"}
+{"level":20,"time":1635651280949,"pid":68439,"hostname":"ziyuandeMacBook-Pro.local","msg":"Ticker price: 61578.27"}
+{"level":20,"time":1635651286061,"pid":68439,"hostname":"ziyuandeMacBook-Pro.local","msg":"Ticker price: 62815.73"}
+{"level":20,"time":1635651290975,"pid":68439,"hostname":"ziyuandeMacBook-Pro.local","msg":"Ticker price: 61577.37"}
+{"level":20,"time":1635651295995,"pid":68439,"hostname":"ziyuandeMacBook-Pro.local","msg":"Ticker price: 62806.85"}
+{"level":20,"time":1635651302036,"pid":68439,"hostname":"ziyuandeMacBook-Pro.local","msg":"Ticker price: 61577.37"}
+{"level":20,"time":1635651307053,"pid":68439,"hostname":"ziyuandeMacBook-Pro.local","msg":"Ticker price: 62808.6"}
+{"level":20,"time":1635651311938,"pid":68439,"hostname":"ziyuandeMacBook-Pro.local","msg":"Ticker price: 61577.37"}
+{"level":20,"time":1635651316985,"pid":68439,"hostname":"ziyuandeMacBook-Pro.local","msg":"Ticker price: 62821.36"}
+{"level":20,"time":1635651317173,"pid":68439,"hostname":"ziyuandeMacBook-Pro.local","msg":"Sell Position, current price: 62821.36 needs to be greater than or equal to 62808.917400000006 to sell and the receivedValue: 589.7169406673088 needs to be greater than the positionAcquiredCost: 596.639599674687"}
+{"level":20,"time":1635651322001,"pid":68439,"hostname":"ziyuandeMacBook-Pro.local","msg":"Ticker price: 61578.44"}
+{"level":20,"time":1635651326407,"pid":68439,"hostname":"ziyuandeMacBook-Pro.local","msg":"Ticker price: 62821.36"}
+{"level":20,"time":1635651331331,"pid":68439,"hostname":"ziyuandeMacBook-Pro.local","msg":"Ticker price: 61579.88"}
+{"level":20,"time":1635651336440,"pid":68439,"hostname":"ziyuandeMacBook-Pro.local","msg":"Ticker price: 62816.43"}
+{"level":20,"time":1635651341354,"pid":68439,"hostname":"ziyuandeMacBook-Pro.local","msg":"Ticker price: 61578.84"}
+{"level":20,"time":1635651346372,"pid":68439,"hostname":"ziyuandeMacBook-Pro.local","msg":"Ticker price: 62813.31"}
+{"level":20,"time":1635651351390,"pid":68439,"hostname":"ziyuandeMacBook-Pro.local","msg":"Ticker price: 61577.37"}
+{"level":20,"time":1635651356409,"pid":68439,"hostname":"ziyuandeMacBook-Pro.local","msg":"Ticker price: 61766.72"}
+{"level":20,"time":1635651360813,"pid":68439,"hostname":"ziyuandeMacBook-Pro.local","msg":"Ticker price: 61578.96"}
+{"level":20,"time":1635651365829,"pid":68439,"hostname":"ziyuandeMacBook-Pro.local","msg":"Ticker price: 62818.85"}
+{"level":20,"time":1635651370846,"pid":68439,"hostname":"ziyuandeMacBook-Pro.local","msg":"Ticker price: 61579.76"}
+{"level":20,"time":1635651375763,"pid":68439,"hostname":"ziyuandeMacBook-Pro.local","msg":"Ticker price: 62819.5"}
+{"level":20,"time":1635651380781,"pid":68439,"hostname":"ziyuandeMacBook-Pro.local","msg":"Ticker price: 61581.43"}
+{"level":20,"time":1635651385799,"pid":68439,"hostname":"ziyuandeMacBook-Pro.local","msg":"Ticker price: 62799.79"}
+{"level":20,"time":1635651391326,"pid":68439,"hostname":"ziyuandeMacBook-Pro.local","msg":"Ticker price: 61577.37"}
+{"level":20,"time":1635651392557,"pid":68439,"hostname":"ziyuandeMacBook-Pro.local","msg":"Ticker price: 62821.36"}
+{"level":20,"time":1635651392558,"pid":68439,"hostname":"ziyuandeMacBook-Pro.local","msg":"Ticker price: 62821.36"}
+{"level":20,"time":1635651392558,"pid":68439,"hostname":"ziyuandeMacBook-Pro.local","msg":"Ticker price: 62821.36"}
+{"level":20,"time":1635651392558,"pid":68439,"hostname":"ziyuandeMacBook-Pro.local","msg":"Ticker price: 62821.36"}
+{"level":20,"time":1635651392559,"pid":68439,"hostname":"ziyuandeMacBook-Pro.local","msg":"Ticker price: 62821.36"}
+{"level":20,"time":1635651392559,"pid":68439,"hostname":"ziyuandeMacBook-Pro.local","msg":"Ticker price: 62821.36"}
+{"level":20,"time":1635651392560,"pid":68439,"hostname":"ziyuandeMacBook-Pro.local","msg":"Ticker price: 62821.36"}
+{"level":20,"time":1635651392560,"pid":68439,"hostname":"ziyuandeMacBook-Pro.local","msg":"Ticker price: 62821.36"}
+{"level":20,"time":1635651392560,"pid":68439,"hostname":"ziyuandeMacBook-Pro.local","msg":"Ticker price: 62821.36"}
+{"level":20,"time":1635651392560,"pid":68439,"hostname":"ziyuandeMacBook-Pro.local","msg":"Ticker price: 62821.36"}
+{"level":20,"time":1635651392561,"pid":68439,"hostname":"ziyuandeMacBook-Pro.local","msg":"Ticker price: 62821.36"}
+{"level":20,"time":1635651392561,"pid":68439,"hostname":"ziyuandeMacBook-Pro.local","msg":"Ticker price: 62821.36"}
+{"level":20,"time":1635651392561,"pid":68439,"hostname":"ziyuandeMacBook-Pro.local","msg":"Ticker price: 62864.57"}
+{"level":20,"time":1635651392567,"pid":68439,"hostname":"ziyuandeMacBook-Pro.local","msg":"Sell Position, current price: 62864.57 needs to be greater than or equal to 62808.917400000006 to sell and the receivedValue: 590.122561765073 needs to be greater than the positionAcquiredCost: 596.639599674687"}
+{"level":20,"time":1635651396448,"pid":68439,"hostname":"ziyuandeMacBook-Pro.local","msg":"Ticker price: 62784.24"}
+{"level":20,"time":1635651401362,"pid":68439,"hostname":"ziyuandeMacBook-Pro.local","msg":"Ticker price: 61577.37"}
+{"level":20,"time":1635651406378,"pid":68439,"hostname":"ziyuandeMacBook-Pro.local","msg":"Ticker price: 61638.9"}
+{"level":20,"time":1635651411395,"pid":68439,"hostname":"ziyuandeMacBook-Pro.local","msg":"Ticker price: 61577.37"}
+{"level":20,"time":1635651415714,"pid":68439,"hostname":"ziyuandeMacBook-Pro.local","msg":"Ticker price: 61638.9"}
+{"level":20,"time":1635651415742,"pid":68439,"hostname":"ziyuandeMacBook-Pro.local","msg":"Ticker price: 62801.01"}
+{"level":20,"time":1635651420819,"pid":68439,"hostname":"ziyuandeMacBook-Pro.local","msg":"Ticker price: 61739.44"}
+{"level":20,"time":1635651425732,"pid":68439,"hostname":"ziyuandeMacBook-Pro.local","msg":"Ticker price: 62798.29"}
+{"level":20,"time":1635651430752,"pid":68439,"hostname":"ziyuandeMacBook-Pro.local","msg":"Ticker price: 61739.44"}
+{"level":20,"time":1635651435769,"pid":68439,"hostname":"ziyuandeMacBook-Pro.local","msg":"Ticker price: 62805.72"}
